@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+@font-face {
+    font-family: "linkinP";
+    src: url("fonts/linkinpark.ttf");
+
+}
+
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color: rgb(160, 157, 157);
 }
 html,body {
     margin: 0;
@@ -14,8 +21,56 @@ html,body {
 .nav li {
     display: inline;
 }
-.main-header {
-    background-image: url("images/backgrounds/header4.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.nav a {
+    display: inline-block;
+    padding: 1.5em 5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.footer li {
+    display: inline-block;
+    padding: 2em 3em;
+}
+.footer{
+    text-align:center ;
+}
+.footer li:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+html {
+    background: url(images/backgrounds/body-background8.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "linkinP";
+}
+.band-name-large {
+    font-size: 8em;
+    padding-top: .1em;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: "linkinP";
+}
+
 }
